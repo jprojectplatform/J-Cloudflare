@@ -25,13 +25,18 @@ A powerful Bash script that automatically creates Cloudflare Tunnels to expose y
 
 ## ⚡ Quick Start
 
-**Download the script**:
+1. **Download the script**:
 ```
 git clone https://github.com/jprojectplatform/J-Cloudflare.git && cd J-Cloudflare
 chmod +x overinternet.sh
 bash overinternet.sh
 ```
-
+2. **Download cloudflared**:
+```
+bash
+curl -L --output cloudflared https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
+chmod +x cloudflared
+```
 
 
 3. **Start your application** (on port 5000 by default):
